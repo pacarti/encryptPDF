@@ -20,7 +20,7 @@ password = getpass("Type password to encrypt: ")
 
 pdfWriter.encrypt(password)
 
-resultPdfNameBase = PDFfilenameToOpen.split('.')
+resultPdfNameBase = PDFfilenameToOpen.split('.pdf')
 
 resultPdfName = resultPdfNameBase[0] + 'Encrypted' + '.pdf'
 
